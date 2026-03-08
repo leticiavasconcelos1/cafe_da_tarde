@@ -1,0 +1,48 @@
+body {
+  background-image: url("img/fundo.png");
+}
+
+.card {
+  background-color: #d9ccb3;
+  width: 900px;
+  margin: 40px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 30px;
+  border-radius: 10px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+  max-width: 650px;
+}
+
+.texto h2 {
+  margin-bottom: 10px;
+}
+
+.texto p {
+  line-height: 1.5;
+}
+
+.imagem img {
+  width: 120px;
+}
+
+footer {
+  background-color: #8b6b4f;
+  color: white;
+  text-align: center;
+
+  padding: 15px;
+  font-family: Georgia, serif;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 3px;
+}

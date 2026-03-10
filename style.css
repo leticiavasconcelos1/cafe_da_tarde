@@ -2,6 +2,26 @@ body {
   background-image: url("img/fundo.png");
 }
 
+.receita {
+  background-image: url(img/fundoreceita.jpg);
+}
+
+.menu {
+  background-color: #8b6b4f;
+  font-family: Georgia, serif;
+}
+
+.menu .nav-link {
+  color: white;
+}
+
+.menu .navbar-brand {
+  color: white;
+}
+.menu .nav-link:hover {
+  color: #f5e6d3;
+}
+
 .card {
   background-color: #d9ccb3;
   width: 900px;
@@ -31,6 +51,11 @@ body {
 
 .imagem img {
   width: 120px;
+}
+
+button {
+  background-color: #8b6b4f !important;
+  border-color: #8b6b4f !important;
 }
 
 footer {

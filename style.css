@@ -2,6 +2,9 @@ body {
   background-image: url("img/fundo.png");
 }
 
+.textinho{
+  max-width: 100%;
+}
 .receita {
   background-image: url(img/fundoreceita.jpg);
 }

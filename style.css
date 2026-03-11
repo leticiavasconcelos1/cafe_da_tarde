@@ -1,17 +1,31 @@
-body {
-  background-image: url("img/fundo.png");
+.mt-4 {
+  margin-top: 0 !important;
+  align-items: center;
 }
 
-.textinho{
+/* Fundo e Background */
+.fundo {
+  background-image: url("img/fundo.png");
+  background-repeat: no-repeat;
+  background-color: #fffced;
+}
+
+.textinho {
   max-width: 100%;
 }
+
 .receita {
-  background-image: url(img/fundoreceita.jpg);
+  background-image: url("img/fundoreceita.jpg");
+  background-repeat: no-repeat;
+  background-color: #fffced;
+  min-height: 100vh;
 }
 
+/* Menu de Navegação */
 .menu {
   background-color: #8b6b4f;
   font-family: Georgia, serif;
+  height: 100%;
 }
 
 .menu .nav-link {
@@ -21,55 +35,122 @@ body {
 .menu .navbar-brand {
   color: white;
 }
+
 .menu .nav-link:hover {
   color: #f5e6d3;
 }
 
+/* Cards */
 .card {
   background-color: #d9ccb3;
-  width: 900px;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 18rem;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
 
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  color: #5a4a3a;
+  font-family: Georgia, serif;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Card de Introdução */
+.card-introducao {
+  background-color: #d9ccb3;
+  width: 45%;
+  margin: auto;
   padding: 20px 30px;
   border-radius: 10px;
-
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-.card img {
-  max-width: 150px;
+
+.card-introducao img {
+  max-width: 100%;
+  height: auto;
 }
 
-.texto {
-  max-width: 650px;
-}
-
-.texto h2 {
-  margin-bottom: 10px;
-}
-
-.texto p {
-  line-height: 1.5;
-}
-
-.imagem img {
-  width: 120px;
-}
-
-button {
+/* Botões */
+.btn-primary {
   background-color: #8b6b4f !important;
   border-color: #8b6b4f !important;
+  color: white;
 }
 
+.btn-primary:hover {
+  background-color: #6b5340 !important;
+  border-color: #6b5340 !important;
+}
+
+.btn-secondary {
+  background-color: #6b5340 !important;
+  border-color: #6b5340 !important;
+}
+
+/* Footer */
 footer {
   background-color: #8b6b4f;
   color: white;
   text-align: center;
-
-  padding: 15px;
+  padding: 20px;
   font-family: Georgia, serif;
   font-size: 14px;
+  margin-top: auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    margin: 15px auto;
+  }
+  
+  .card-introducao {
+    padding: 15px;
+  }
+  
+  .card img {
+    height: 180px;
+  }
+}
+
+/* Grid de receitas */
+/* custom grid rules removed; Bootstrap's row/col classes handle layout */
+
+/* Modal customization */
+.modal-header {
+  background-color: #8b6b4f;
+  color: white;
+}
+
+.modal-header .btn-close {
+  filter: invert(1);
+}
+
+.modal-body h6 {
+  color: #8b6b4f;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.modal-body ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.modal-body li {
+  margin-bottom: 5px;
 }

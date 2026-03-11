@@ -1,25 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Café da tarde</title>
+    <title>Receitas - Café da Tarde</title>
 
     <link rel="stylesheet" href="style.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
     />
   </head>
 
   <body class="receita">
-    <nav class="navbar navbar-expand-lg menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="img/baixados.png" width="60" height="50" />
+        <a class="navbar-brand" href="index.html">
+          <img src="img/baixados.png" alt="Logo Café da Tarde" width="60" height="50" />
         </a>
-        <a class="navbar-brand" href="index.html">Café da tarde</a>
+        <a class="navbar-brand" href="index.html">Café da Tarde</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,307 +44,80 @@
               <a class="nav-link" href="sobre.html">Sobre</a>
             </li>
           </ul>
-         
         </div>
       </div>
     </nav>
 
     <div class="container text-center mt-5">
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- bolo cenoura -->
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/cenoura.jpg" class="card-img-top" />
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/cenoura.jpg" class="card-img-top" alt="Bolo de Cenoura" />
             <div class="card-body">
               <h5 class="card-title">Bolo de cenoura</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalCenoura"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
-        <!-- bolo nivnho -->
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/ninho.JPG" class="card-img-top" />
+        <!-- bolo ninho -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/ninho.JPG" class="card-img-top" alt="Bolo de Ninho" />
             <div class="card-body">
               <h5 class="card-title">Bolo de Ninho</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalNinho"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
         <!-- bolo kitkat -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/kitkat.jpeg" class="card-img-top" />
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/kitkat.jpeg" class="card-img-top" alt="Bolo de Kit Kat" />
             <div class="card-body">
               <h5 class="card-title">Bolo de Kit Kat</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalKitkat"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
         <!-- bolo redvelvet -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/redvelvet.JPG" class="card-img-top" />
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/redvelvet.JPG" class="card-img-top" alt="Bolo Red Velvet" />
             <div class="card-body">
               <h5 class="card-title">Bolo Red Velvet</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalRedVelvet"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -350,910 +125,306 @@
 
       <!-- parte 2 -->
 
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- Sorvete -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/sorvete.JPG" class="card-img-top" />
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/sorvete.JPG" class="card-img-top" alt="Sorvete caseiro" />
             <div class="card-body">
               <h5 class="card-title">Sorvete</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalSorvete"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
         <!-- suco -->
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/suco.JPG" class="card-img-top" />
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/suco.JPG" class="card-img-top" alt="Suco de Laranja" />
             <div class="card-body">
               <h5 class="card-title">Suco de Laranja</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalSuco"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
         <!-- café -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/capuccino.JPG" class="card-img-top" />
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/capuccino.JPG" class="card-img-top" alt="Capuccino" />
             <div class="card-body">
               <h5 class="card-title">Capuccino</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalCapuccino"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
-        <!-- paao de queijo -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/paodequeijo.JPG" class="card-img-top" />
+        <!-- pão de queijo -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="img/paodequeijo.JPG" class="card-img-top" alt="Pão de queijo" />
             <div class="card-body">
               <h5 class="card-title">Pão de queijo</h5>
               <button
                 type="button"
                 class="btn btn-primary"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#modalPaoQueijo"
               >
                 Ver Receita
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- .... -->
+    <!-- MODAIS -->
 
-    <div class="container text-center mt-5">
-      <div class="row">
-        <!-- bolo cenoura -->
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/cenoura.jpg" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Bolo de cenoura</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- Modal Bolo de Cenoura -->
+    <div class="modal fade" id="modalCenoura" tabindex="-1" aria-labelledby="modalCenouraLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalCenouraLabel">Bolo de Cenoura</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
-        </div>
-
-        <!-- bolo nivnho -->
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/ninho.JPG" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Bolo de Ninho</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>3 cenouras médias</li>
+              <li>3 ovos</li>
+              <li>1 xícara de óleo</li>
+              <li>2 xícaras de açúcar</li>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 colher de sopa de fermento em pó</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Bata no liquidificador a cenoura, ovos e óleo. Misture com os ingredientes secos e leve ao forno por aproximadamente 40 minutos.</p>
           </div>
-        </div>
-
-        <!-- bolo kitkat -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/kitkat.jpeg" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Bolo de Kit Kat</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- bolo redvelvet -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/redvelvet.JPG" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Bolo Red Velvet</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- parte 2 -->
-
-      <div class="row">
-        <!-- Sorvete -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/sorvete.JPG" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Sorvete</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- Modal Bolo de Ninho -->
+    <div class="modal fade" id="modalNinho" tabindex="-1" aria-labelledby="modalNinhoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalNinhoLabel">Bolo de Ninho</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>3 ovos</li>
+              <li>1 xícara de açúcar</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1 xícara de leite</li>
+              <li>1 xícara de leite em pó (Leite Ninho)</li>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 colher de sopa de fermento em pó</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Bata no liquidificador os ovos, açúcar, óleo, leite e o leite em pó. Misture com a farinha de trigo e por último o fermento. Coloque em forma untada e leve ao forno por aproximadamente 40 minutos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           </div>
         </div>
+      </div>
+    </div>
 
-        <!-- suco -->
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/suco.JPG" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Suco de Laranja</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- Modal Bolo de Kit Kat -->
+    <div class="modal fade" id="modalKitkat" tabindex="-1" aria-labelledby="modalKitkatLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalKitkatLabel">Bolo de Kit Kat</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>2 xícaras de farinha de trigo</li>
+              <li>1 e 1/2 xícara de açúcar</li>
+              <li>1/2 xícara de cacau em pó</li>
+              <li>3 ovos</li>
+              <li>1 xícara de leite</li>
+              <li>1/2 xícara de óleo</li>
+              <li>1 colher de sopa de fermento em pó</li>
+              <li>200g de chocolate Kit Kat para cobertura</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Misture os ingredientes secos. Bata os ovos com o leite e o óleo, adicione aos poucos misturando. Por último adicione o fermento. Asse em forno pré-aquecido a 180°C por aproximadamente 40 minutos. Decore com Kit Kat.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           </div>
         </div>
+      </div>
+    </div>
 
-        <!-- café -->
-
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/capuccino.JPG" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Capuccino</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
-
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- Modal Bolo Red Velvet -->
+    <div class="modal fade" id="modalRedVelvet" tabindex="-1" aria-labelledby="modalRedVelvetLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalRedVelvetLabel">Bolo Red Velvet</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>2 e 1/2 xícaras de farinha de trigo</li>
+              <li>1 e 1/2 xícara de açúcar</li>
+              <li>1 colher de sopa de cacau em pó</li>
+              <li>1 colher de chá de sal</li>
+              <li>2 ovos</li>
+              <li>1 e 1/2 xícara de buttermilk</li>
+              <li>1 e 1/2 xícara de óleo vegetal</li>
+              <li>2 colheres de sopa de corante vermelho</li>
+              <li>1 colher de chá de essência de baunilha</li>
+              <li>1 colher de sopa de vinagre branco</li>
+              <li>1 colher de chá de fermento em pó</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Misture os ingredientes secos. Em outra tigela, bata os ovos com o buttermilk, óleo, corante e baunilha. Combine as duas misturas. Adicione o vinagre com fermento por último. Asse a 180°C por aproximadamente 35-40 minutos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           </div>
         </div>
+      </div>
+    </div>
 
-        <!-- paao de queijo -->
+    <!-- Modal Sorvete -->
+    <div class="modal fade" id="modalSorvete" tabindex="-1" aria-labelledby="modalSorveteLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalSorveteLabel">Sorvete Caseiro</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>1 lata de leite condensado</li>
+              <li>1 lata de creme de leite</li>
+              <li>300ml de leite</li>
+              <li>3 gemas</li>
+              <li>1 colher de essência de baunilha</li>
+              <li>1 xícara de açúcar</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Bata as gemas com o açúcar. Leve ao fogo baixo até dissolver o açúcar. Adicione o leite, o leite condensado e a baunilha. Deixe esfriar e bata na sorveteira ou leve ao freezer por 4 horas, mexendo a cada hora.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="col">
-          <div class="card" style="width: 18rem">
-            <img src="img/paodequeijo.JPG" class="card-img-top" />
-            <div class="card-body">
-              <h5 class="card-title">Pão de queijo</h5>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Ver Receita
-              </button>
+    <!-- Modal Suco de Laranja -->
+    <div class="modal fade" id="modalSuco" tabindex="-1" aria-labelledby="modalSucoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalSucoLabel">Suco de Laranja</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>6 laranjas</li>
+              <li>1 litro de água</li>
+              <li>Açúcar a gosto</li>
+              <li>Gelo a gosto</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Esprema as laranjas e coe o suco. Misture com a água e o açúcar. Sirva com gelo.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-                >
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Receita
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                      ></button>
-                    </div>
+    <!-- Modal Capuccino -->
+    <div class="modal fade" id="modalCapuccino" tabindex="-1" aria-labelledby="modalCapuccinoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalCapuccinoLabel">Capuccino Caseiro</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>1 xícara de café forte</li>
+              <li>1/2 xícara de leite</li>
+              <li>2 colheres de açúcar</li>
+              <li>Canela em pó a gosto</li>
+              <li>Chocolate em pó para finalizar</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Prepare o café e adicione o açúcar. Aqueça o leite e bata até formar espuma. Misture o café com o leite e finalize com canela e chocolate em pó.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                    <div class="modal-body">
-                      <h6>Ingredientes</h6>
-
-                      <ul>
-                        <li>3 cenouras</li>
-                        <li>3 ovos</li>
-                        <li>1 xícara de óleo</li>
-                        <li>2 xícaras de açúcar</li>
-                        <li>2 xícaras de farinha</li>
-                      </ul>
-
-                      <h6>Modo de preparo</h6>
-
-                      <p>
-                        Bata no liquidificador a cenoura, ovos e óleo. Misture
-                        com os ingredientes secos e leve ao forno por
-                        aproximadamente 40 minutos.
-                      </p>
-                    </div>
-
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Fechar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- Modal Pão de Queijo -->
+    <div class="modal fade" id="modalPaoQueijo" tabindex="-1" aria-labelledby="modalPaoQueijoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalPaoQueijoLabel">Pão de Queijo</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h6>Ingredientes</h6>
+            <ul>
+              <li>500g de polvilho azedo</li>
+              <li>200g de queijo minas ralado</li>
+              <li>1 xícara de óleo</li>
+              <li>2 ovos</li>
+              <li>Sal a gosto</li>
+            </ul>
+            <h6>Modo de preparo</h6>
+            <p>Misture o polvilho com o sal e o queijo. Adicione o óleo fervente e misture bem. Acrescente os ovos e sove até formar uma massa lisa. Faça bolinhas e asse a 180°C por aproximadamente 25 minutos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
@@ -1268,3 +439,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+

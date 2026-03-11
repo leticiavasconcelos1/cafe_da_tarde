@@ -154,3 +154,8 @@ footer {
 .modal-body li {
   margin-bottom: 5px;
 }
+
+.card-sobre {
+  border-radius: 20px;
+  background-color: #d9ccb3;
+}
